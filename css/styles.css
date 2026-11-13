@@ -1,0 +1,9 @@
+* {
+    font-family: cursive
+}
+
+.tarjeta {
+    width: 100px;
+    height: 100px;
+    border: 4px black solid;
+}
