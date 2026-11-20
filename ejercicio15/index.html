@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-yEPZ7jP9S0QKiUQ0m3jjsO4ProIW7wvR9gXkI7JOGa2XVsw53Yke2bsdkBbjmmiX" crossorigin="anonymous">
+</head>
+<header>
+    <h1 class="display-4 d-flex justify-content-center mt-5 mb-5">DOM y eventos en JavaScript
+</header>
+
+<body>
+
+    <div class="container p-5 card border-danger bg-light mt-5">
+
+        </h1>
+        <h2 class="mt-5">Ejercicio 15: Gestor de tareas con estado
+        </h2>
+        <div class="row mt-2">
+            <div class="col dive">
+                <label for="">Tarea</label>
+                <input class="forma" id="tarea" type="text"> <label for="">Prioridad</label>
+                <select class="select" name="prioridad" id="prioridad">
+                    <option value="baja">baja</option>
+                    <option value="media">media</option>
+                    <option value="alta">alta</option>
+                </select>
+                <button class="btn btn-warning mt-4 boton" id="boton" onclick="agregar()">Agregar
+                    gasto</button>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="container p-5 card border-success bg-white mt-5 mb-5">
+        <div class="row mt-2 mb-2">
+            <div class="col" id="espacio">
+
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.9/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-WyOxWvTyr1QaMPfiPJSv76iReVthorl5uWlFtZPyK0IEB0hGzo9y5Bp9mYanr8Bu"
+        crossorigin="anonymous"></script>
+    <script src="js/ejercicio15.js"></script>
+</body>
+
+</html>
